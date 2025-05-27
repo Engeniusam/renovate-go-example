@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/gorilla/websocket"
+	"golang.org/x/text/language"
 )
 
 func main() {
-	fmt.Println("Hello, Renovate!")
-
-	// Creating a basic websocket dialer to use the imported package
-	var dialer websocket.Dialer
-	fmt.Printf("Dialer: %+v\n", dialer)
+	tag, err := language.Parse("en-US")
+	if err != nil {
+		fmt.Println("Error parsing language tag:", err)
+	} else {
+		fmt.Println("Parsed language tag:", tag)
+	}
 }
