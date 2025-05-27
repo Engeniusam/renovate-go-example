@@ -5,3 +5,30 @@ This Go program is set up to demonstrate Renovate for dependency updates. It inc
 ## How to run
 ```sh
 go run main.go
+```
+## Add changes using
+
+```sh
+git add .
+```
+## Commit changes using
+```sh
+git commit -m "commit message"
+```
+
+## Push to GitHub using
+```sh
+git push
+```
+![image](https://github.com/user-attachments/assets/22f9a73c-a0a9-4c86-be51-61587331c637)
+
+Enabled dependency graph and dependabot alerts:
+
+![Screenshot (1291)](https://github.com/user-attachments/assets/f5ec19c2-d142-4c5b-9d53-e78deadb284c)
+
+2 security alerts detected by dependabot alerts
+
+![security alerts](https://github.com/user-attachments/assets/8aa994fe-6b88-4dc9-a28b-63225ab59227)
+
+PR Raised though by dependabot, I configured to give access to renovate since I am the administrator of my account though, your mentorship will be valuable
+![image](https://github.com/user-attachments/assets/b12350a6-7bf6-461e-904c-e59edf3cbf73)
