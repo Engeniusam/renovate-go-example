@@ -30,5 +30,8 @@ Enabled dependency graph and dependabot alerts:
 
 ![security alerts](https://github.com/user-attachments/assets/8aa994fe-6b88-4dc9-a28b-63225ab59227)
 
+Access enabled for renovate
+![image](https://github.com/user-attachments/assets/6ed5d913-71ea-4152-87aa-488877f094d3)
+
 PR Raised though by dependabot, I configured to give access to renovate since I am the administrator of my account though, your mentorship will be valuable
 ![image](https://github.com/user-attachments/assets/b12350a6-7bf6-461e-904c-e59edf3cbf73)
